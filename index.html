@@ -1,616 +1,441 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Profile &mdash; Brahmachary</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="#" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brahmachary Diggoju — Senior Software Engineer</title>
+<meta name="description" content="Brahmachary Diggoju — Senior Software Engineer with 9+ years building scalable Angular platforms, enterprise frontends and modern digital products.">
+<meta name="author" content="Brahmachary Diggoju">
+<meta name="theme-color" content="#050816">
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-	<link data-n-head="ssr" rel="icon" type="image/x-icon" href="./images/user_1.jpg" class="profile-thumb">
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	<!-- Include FontAwesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brahmachary Diggoju — Senior Software Engineer">
+<meta property="og:description" content="9+ years building scalable Angular platforms, enterprise frontends and modern digital products.">
+<meta property="og:url" content="https://brahmacharyd.github.io/PortFolio/">
+<meta property="og:site_name" content="Brahmachary Diggoju — Portfolio">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Brahmachary Diggoju — Senior Software Engineer">
+<meta name="twitter:description" content="9+ years building scalable Angular platforms, enterprise frontends and modern digital products.">
 
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user_1.jpg);"></div>
-							<h1><span>Brahmachary Diggoju</span></h1>
-							<h3><span>Web Developer / Front-End Developer</span></h3>
-							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://www.linkedin.com/in/brahmachary-diggoju/" target="_blank"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://drive.google.com/file/d/1wXRwykIkzSmAyr5-rIng_YU2IBPscVMI/view?usp=drive_link" target="_blank"><i class="fas fa-file-alt"></i>
-									</a></li>
-									<li><a href="#"><i class="icon-twitter2"></i></a></li>
-									<li><a href="#"><i class="icon-facebook2"></i></a></li>
-									</a></li>
-								</ul>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+<!-- Icon sprite -->
+<svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true">
+  <defs>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4z"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 2a10 10 0 00-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 015 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.74c0 .26.18.58.69.48A10 10 0 0012 2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18v12H3zM3 6l9 7 9-7"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path fill="none" stroke="currentColor" stroke-width="1.8" d="M14 2v6h6M9 13h6M9 17h6M9 9h1"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M9 9h10v10H9zM5 15V5h10"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 6L9 17l-5-5"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 9v4M12 17h.01M10.3 3.9l-8 14A1.6 1.6 0 003.7 20.5h16.6a1.6 1.6 0 001.4-2.6l-8-14a1.6 1.6 0 00-2.8 0z"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5 12l7-7 7 7"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 2l9 5-9 5-9-5 9-5zM3 12l9 5 9-5M3 17l9 5 9-5"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3M6 6h12v12H6z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></symbol>
+  </defs>
+</svg>
 
-	<div id="fh5co-about" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">Brahmachary Diggoju</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+91 9494460250</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">brahmacharydiggoju.ui@gmail.com</span></li>
-						<li><span class="first-block">Portfolio:</span><span class="second-block"><a href="https://brahmacharyd.github.io/PortFolio/" target="_blank">Visit my Portfolio</a></span></li>
-						<li><span class="first-block">Address:</span><span class="second-block">Hyderabad, India</span></li>
-					</ul>
-				</div>
-				<div class="col-md-8">
-					<h2>Hello There!</h2>
-					<p>Around 9+ Years in developing professional small-scale to large-scale web applications which includes front-end
-						developing client web applications using HTML5, CSS3, JavaScript, AngularJs & Angular 2/4/6/7/8/13/15/18.</p>
-					
-					<p>Responsive Web Design (RWD) for different types of Devices like tablets and mobiles using media queries, Bootstrap.
-						Solid Experience of stylesheet language CSS3, CSS framework Bootstrap and Angular Material Design.</p>
-					
-					<p>Experience in Angular CLI, NPM and YARN for developing the angular Application. Hands on Restful service consuming/
-						Integrating backend services/APIs. Hands-on experience TDD (Test Driven Development) approach by using testing tools
-						such as Jasmine, Karma.</p>
-					
-					<p>Hands-on experience with using software version control tools like Git. Working in an Agile development environment.
-						Good in Communication Skills, Team Player. Detail-oriented with proven communication and analytical skills and can
-						handle multiple tasks to meet deadlines in pressure situations.</p>
-					
-					<p>Focused and hardworking, self-motivated and team-oriented, coupled with excellent communication and interpersonal
-						skills. Involved in interacting with the client, feasibility study, Designing, Coding, Development and
-						Implementation. Directives, and filters to deploy the entire business logic.</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="https://www.linkedin.com/in/brahmachary-diggoju/" target="_blank"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="https://drive.google.com/file/d/1wXRwykIkzSmAyr5-rIng_YU2IBPscVMI/view?usp=drive_link" target="_blank"><i class="fas fa-file-alt"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-facebook3"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+<div class="bg-orb bg-orb--green" aria-hidden="true"></div>
+<div class="bg-orb bg-orb--purple" aria-hidden="true"></div>
+<div class="mouse-glow" aria-hidden="true"></div>
+<div class="noise-overlay" aria-hidden="true"></div>
 
-	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Work Experience</h3></div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Sr. Application Developer</h3><span class="company">Arise TechGlobal - Nov 2025 - Present</span></div><div class="timeline-body"><p>Designed and developed an enterprise-grade MDM Product Enrichment Platform to manage and enhance product master data for large-scale catalogs, enabling efficient product data management, vendor collaboration, AI-based suggestions, and audit tracking. Built scalable Angular applications using Nx monorepo architecture for modular and maintainable code. Implemented state management using NgRx (Store, Effects, Actions) to manage complex UI and API interactions. Integrated REST APIs for product management, vendor data, AI suggestions, and audit history. Developed high-performance data grids using AG Grid for handling large product datasets. Implemented role-based access control using Okta authentication and custom route guards. Optimized API calls and UI performance using RxJS operators and efficient state handling. Designed reusable components and shared libraries to improve development speed and maintain consistency across modules. Implemented dashboard, product listing, vendor management, AI suggestion workflows, and audit history modules.
-</p></div></div></li><li class="animate-box timeline-unverted"><div class="timeline-badge"><i class="icon-suitcase"></i></div><div class="timeline-panel"><div class="timeline-heading"><h3 class="timeline-title">Application Developer</h3>
-									<span class="company">Sira Consulting Inc - May 2024 - Nov 2025</span>
-								</div>
-								<div class="timeline-body">
-									<p>Key member in developing Assets Insights, a market-leading IT Asset Management (ITAM) tool. Designed a definitive source of truth for all ITAM activities, providing real-time visibility and control. Implemented actionable insights, reporting, timelines, and an action tracker to improve asset lifecycle management. Helped clients mitigate risks, optimize costs, and enhance operational efficiencies by aligning IT assets with business requirements. Also took ownership of front-end delivery by guiding and coordinating with team members, reviewing code, and ensuring timely and high-quality feature implementations.
-</p>
+<div id="scroll-progress" role="progressbar" aria-label="Page scroll progress"></div>
 
-								</div>
-								</div>
-								</li><li class="timeline-inverted animate-box"><div class="timeline-badge"><i class="icon-suitcase"></i></div><div class="timeline-panel"><div class="timeline-heading"><h3 class="timeline-title">Senior Software Engineer</h3>
-									<span class="company">Cignex - Nov-2020 - May-2024</span>
-								</div>
-								<div class="timeline-body">
-									<p>Implemented a comprehensive code review process, reducing post-release bugs by 30%. Pioneered the adoption of Angular CLI, significantly improving project structure and build times. Led the successful implementation of a critical RESTful service, improving overall system efficiency by 20%. Collaborated with cross-functional teams to streamline the development process, reducing project delivery time by 15%. Additionally, coordinated and mentored front-end team members, ensuring adherence to coding standards, timely delivery, and effective knowledge sharing.
-</p>
+<header class="site-nav">
+  <div class="container">
+    <a href="#top" class="brand">brahmachary<span>.</span>dev<span class="brand-cursor" aria-hidden="true"></span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-outline" href="https://drive.google.com/file/d/1wXRwykIkzSmAyr5-rIng_YU2IBPscVMI/view?usp=drive_link" target="_blank" rel="noopener">
+        <svg><use href="#i-file"/></svg><span class="btn-label-full">Resume</span>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
 
-								</div>
-								</div>
-								</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Software Engineer</h3>
-									<span class="company">Perfexion Information Technologies - Apr-2017 - Oct-2020</span>
-								</div>
-								<div class="timeline-body">
-									<p>Spearheaded the redesign of a critical module, resulting in a 25% increase in user engagement. Received recognition for outstanding teamwork during a high-pressure project, ensuring timely delivery. Implemented a responsive design strategy, resulting in a 40% increase in user satisfaction on mobile devices. Played a key role in the successful deployment of a critical feature, receiving accolades for problem-solving and collaboration. Recognized for exceptional teamwork in high-pressure projects, ensuring timely delivery. Served as Software Associate with expertise in REST, TypeScript, HTML5, JavaScript, CSS, Bootstrap, OOP, Angular, Node.js, Agile, Git, and GitHub. Implemented responsive design, leading to a 40% increase in mobile user satisfaction. Key role in deploying a critical feature, receiving accolades for problem-solving and collaboration.</p>
-								</div>
-							</div>
-						</li>
-						<br>
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Education</h3></div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Graduation</h3>
-									<span class="company">Monad University - 2012 - 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Completed B.Com Computers at Monad University, gaining comprehensive knowledge in computer applications for business. Developed skills in areas such as programming, data analysis, and business computing, preparing for a versatile career at the intersection of business and technology.</p>
-								</div>
-							</div>
-						</li>
-						
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-
-	<div id="fh5co-features" class="animate-box">
-		<div class="container">
-			<div class="services-padding">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Services</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-paintbrush"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Web Design</h3>
-								<p>Passionate web designer with expertise in creating visually stunning and user-friendly websites. Proficient in HTML5, CSS3, and JavaScript. Dedicated to delivering impactful designs that enhance user experience and meet client objectives. Strong attention to detail and commitment to staying current with industry trends.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Branding</h3>
-								<p>Experienced branding professional adept at crafting compelling brand identities. Skilled in strategic brand development, visual design, and storytelling. Committed to creating memorable and cohesive brand experiences that resonate with target audiences and drive brand success.</p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-search"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Analytics</h3>
-								<p>Analytical professional specializing in data-driven insights. Proficient in extracting valuable information from complex datasets, utilizing tools such as Python, R, and data visualization techniques. Dedicated to transforming raw data into actionable strategies for informed decision-making and business growth.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="row">
-					<div class="col-md-4 text-center">
-
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-bargraph"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Web Developent</h3>
-								<p>Web development enthusiast skilled in front-end technologies. Proficient in HTML, CSS, JavaScript, and frameworks like Angular and Node.js. Committed to creating responsive, dynamic, and user-friendly websites. Passionate about staying updated on the latest web development trends and technologies.</p>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Support</h3>
-								<p>Dedicated support professional with a customer-centric approach. Experienced in resolving technical issues, providing timely assistance, and ensuring customer satisfaction. Adept at troubleshooting and delivering effective solutions with excellent communication and interpersonal skills. Committed to delivering exceptional support to enhance user experience.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Skills</h2>
-				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Angular2+</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="89"><span><strong>Bootstrap</strong>89%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>JavaScript</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>AngularJs</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>TypeScript</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">JavaScript</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">TypeScript</span><span class="value-right">80%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Bootstrap</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-						  </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="progress-wrap">
-						<h3><span class="name-left">Angular</span><span class="value-right">90%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">React</span><span class="value-right">70%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-striped active" role="progressbar"
-						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">Ngrx</span><span class="value-right">85%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-						  </div>
-						</div>
-					</div>
-					<div class="progress-wrap">
-						<h3><span class="name-left">jQuery</span><span class="value-right">75%</span></h3>
-						<div class="progress">
-						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-						  </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Work</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" target="_blank" class="work bg-danger">
-						<div class="desc">
-							<h3>Nothing</h3>
-							<span>Education Administration Programs</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://brahmacharyd.github.io/PortFolio/" class="work" style="background-image: url(images/user-3.jpg);">
-						<div class="desc">
-							<h3>PortFolio</h3>
-							<span>PortFolio Details</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.dvvinnovations.com/" target="_blank" class="work" style="background-image: url(images/portfolio-3.jpg);">
-						<div class="desc">
-							<h3>DVV Innovations</h3>
-							<span>Website</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.mkgtechnology.in/" target="_blank" class="work" style="background-image: url(images/portfolio-4.jpg);">
-						<div class="desc">
-							<h3>MKG Technology</h3>
-							<span>Website</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Website</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Post on Medium</h2>
-					<p>Passionate web designer with a keen eye for aesthetics and a knack for user-centric design. Proficient in HTML5, CSS3, and JavaScript, I specialize in crafting visually appealing and intuitive websites. Committed to creating memorable online experiences that seamlessly blend creativity with functionality. Stay tuned for insights, tips, and trends in the dynamic world of web design!</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 15th 2016</span>
-							<h3><a href="#">Photoshoot On The Street</a></h3>
-							<p>Candid and captivating street photoshoots capturing moments and emotions in urban environments. Bringing the streets to life through a lens, one frame at a time.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 15th 2016</span>
-							<h3><a href="#">Surfing at Philippines</a></h3>
-							<p>Riding the waves in the picturesque Philippines—join me on an exhilarating surfing adventure where sun, sea, and surf collide. Discover the beauty of Philippine beaches through the lens of a surfboard.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
-						<div class="blog-text">
-							<span class="posted_on">Mar. 15th 2016</span>
-							<h3><a href="#">Capture Living On Uderwater</a></h3>
-							<p>Immersive underwater captures bringing marine life to life. Join me as I explore the depths, capturing the vibrant and dynamic world beneath the surface. Dive into a visual journey of underwater wonders.</p>
-							<ul class="stuff">
-								<li><i class="icon-heart2"></i>249</li>
-								<li><i class="icon-eye2"></i>308</li>
-								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-started" class="fh5co-bg-dark">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Hire Me!</h2>
-					<p>Passionate and skilled professional seeking exciting opportunities. With expertise in Front-End Development, I bring a dynamic approach, creativity, and dedication to every project. Let's collaborate and achieve great things together. Hire me for your next venture!</p>
-					<p><a href="mailto:brahmacharydiggoju.ui@gmail.com?subject=Inquiry%20from%20Website" class="btn btn-default btn-lg">Contact Us</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-			<div class="overlay"></div>
-		</div>
-		<div class="choose animate-box">
-			<h2>Contact</h2>
-			<form id="contactForm" action="https://formspree.io/f/xoqgllye" method="POST">
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="fname" name= "firstName" class="form-control" placeholder="Your firstname" required>
-					</div>
-				</div>
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="lname" name="lastName" class="form-control" placeholder="Your lastname" required>
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="email" name="email" class="form-control" placeholder="Your email address" required>
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="tel" id="mobileNumber" name="mobileNumber" class="form-control" pattern="(\+?\d{1,4})?(\d{10}|\d{11}|\d{12})" placeholder="Enter your mobile number" required>
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" name="subject" class="form-control" placeholder="Your subject of this message" required>
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
-				</div>
-
-			</form>	
-		</div>
-	</div>
-
-	<div id="map" class="fh5co-map"></div>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
 </div>
-	
-	<!-- <div id="fh5co-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>&copy; 2024 All Rights Reserved. Designed by The(D)Brahmachary</p>
-				</div>
-			</div>
-		</div>
-	</div> -->
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	<script src="js/google_map.js"></script>
-	
-	<!-- Main -->
-	<script src="js/main.js"></script>
-	</body>
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-copy">
+      <span class="hero-eyebrow" data-reveal="fade"><span class="dot" aria-hidden="true"></span> Currently @ Arise TechGlobal</span>
+      <h1 data-reveal="fade" data-reveal-delay="80">Brahmachary Diggoju</h1>
+      <h2 class="role" data-reveal="fade" data-reveal-delay="140">Senior Software Engineer</h2>
+      <p class="stack-line" data-reveal="fade" data-reveal-delay="200">Angular <span class="sep">•</span> React <span class="sep">•</span> Java <span class="sep">•</span> Spring Boot <span class="sep">•</span> AI <span class="sep">•</span> Cloud</p>
+      <div class="hero-actions" data-reveal="fade" data-reveal-delay="260">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://drive.google.com/file/d/1wXRwykIkzSmAyr5-rIng_YU2IBPscVMI/view?usp=drive_link" target="_blank" rel="noopener" class="btn btn-outline">
+          <svg><use href="#i-file"/></svg> Download Resume
+        </a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="terminal" data-reveal="scale" data-reveal-delay="200">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="path">brahmachary@dev — zsh</span>
+      </div>
+      <div class="terminal-body">
+        <div class="line"><span class="prompt">brahmachary@dev</span><span class="cmd">:~$ whoami</span></div>
+        <div class="line out">Senior Software Engineer — Enterprise Angular &amp; Frontend Architecture</div>
+        <div class="line"><span class="prompt">brahmachary@dev</span><span class="cmd">:~$ cat stack.txt</span></div>
+        <div class="line out">Angular · React · Java · Spring Boot · AI · Cloud</div>
+        <div class="line"><span class="prompt">brahmachary@dev</span><span class="cmd">:~$ ./status.sh</span></div>
+        <div class="line out muted">9+ years · 4 companies · production-grade web apps</div>
+        <div class="line">
+          <span id="terminal-typed" data-lines='["Building the MDM Product Enrichment Platform at Arise TechGlobal…","Designing scalable Angular + Nx architectures.","Open to interesting engineering conversations."]'></span><span class="cursor" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true"><div class="wheel"></div>SCROLL</div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="section-heading" data-reveal="fade">
+      <span class="eyebrow">About</span>
+      <h2>Engineering scalable products, end to end</h2>
+      <p>A senior software engineer focused on building fast, maintainable, enterprise-grade frontends.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card glass" data-reveal="left">
+        <div class="about-avatar"><img src="images/user_1.jpg" alt="Portrait of Brahmachary Diggoju" width="84" height="84" loading="lazy"></div>
+        <h3>Brahmachary Diggoju</h3>
+        <p class="role-line">// Senior Software Engineer</p>
+        <ul class="about-facts">
+          <li><span class="label">Location</span><span class="value">Hyderabad, India</span></li>
+          <li><span class="label">Experience</span><span class="value">9+ Years</span></li>
+          <li><span class="label">Email</span><span class="value"><a href="mailto:brahmacharydiggoju.ui@gmail.com">brahmacharydiggoju.ui@gmail.com</a></span></li>
+          <li><span class="label">Phone</span><span class="value"><a href="tel:+919494460250">+91 94944 60250</a></span></li>
+          <li><span class="label">LinkedIn</span><span class="value"><a href="https://www.linkedin.com/in/brahmachary-diggoju/" target="_blank" rel="noopener">/brahmachary-diggoju</a></span></li>
+        </ul>
+      </div>
+
+      <div class="about-copy" data-reveal="right">
+        <p>Around 9+ years developing professional small-scale to large-scale web applications — front-end architecture, enterprise Angular platforms, and RESTful integrations for products used by real businesses.</p>
+        <p>Hands-on with Angular CLI, Nx monorepos, NgRx state management, and TDD (Jasmine, Karma). Comfortable owning a feature from design through deployment, reviewing code, and mentoring front-end teammates.</p>
+
+        <div class="focus-grid">
+          <div class="focus-card glass" data-reveal="fade" data-reveal-delay="0">
+            <div class="icon"><svg width="26" height="26"><use href="#i-layers"/></svg></div>
+            <h4>Enterprise Angular</h4>
+            <p>Nx monorepos, NgRx, reusable component libraries at scale.</p>
+          </div>
+          <div class="focus-card glass" data-reveal="fade" data-reveal-delay="100">
+            <div class="icon"><svg width="26" height="26"><use href="#i-cpu"/></svg></div>
+            <h4>AI-assisted workflows</h4>
+            <p>Integrating AI-based suggestions into real product surfaces.</p>
+          </div>
+          <div class="focus-card glass" data-reveal="fade" data-reveal-delay="200">
+            <div class="icon"><svg width="26" height="26"><use href="#i-shield"/></svg></div>
+            <h4>Secure by default</h4>
+            <p>Role-based access with Okta, guarded routes, audited flows.</p>
+          </div>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat" data-reveal="fade" data-reveal-delay="0"><div class="num"><span>9+</span></div><div class="lbl">Years</div></div>
+          <div class="stat" data-reveal="fade" data-reveal-delay="80"><div class="num"><span>4</span></div><div class="lbl">Companies</div></div>
+          <div class="stat" data-reveal="fade" data-reveal-delay="160"><div class="num"><span>10+</span></div><div class="lbl">Angular Versions</div></div>
+          <div class="stat" data-reveal="fade" data-reveal-delay="240"><div class="num"><span>3</span></div><div class="lbl">Live Projects</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-heading" data-reveal="fade">
+      <span class="eyebrow">Skills</span>
+      <h2>Technologies I build with</h2>
+      <p>Grouped by where they show up in production, not a wishlist.</p>
+    </div>
+
+    <div class="skills-groups">
+      <div class="skill-group" data-reveal="fade">
+        <h3>Frontend</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><span class="name">Angular (2–18)</span></div>
+          <div class="skill-card"><span class="name">TypeScript</span></div>
+          <div class="skill-card"><span class="name">JavaScript (ES6+)</span></div>
+          <div class="skill-card"><span class="name">HTML5</span></div>
+          <div class="skill-card"><span class="name">CSS3 / SASS</span></div>
+          <div class="skill-card"><span class="name">React</span></div>
+          <div class="skill-card"><span class="name">NgRx</span></div>
+          <div class="skill-card"><span class="name">RxJS</span></div>
+          <div class="skill-card"><span class="name">Nx Monorepo</span></div>
+          <div class="skill-card"><span class="name">AG Grid</span></div>
+          <div class="skill-card"><span class="name">Bootstrap</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group" data-reveal="fade">
+        <h3>Backend</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><span class="name">Java</span></div>
+          <div class="skill-card"><span class="name">Spring Boot</span></div>
+          <div class="skill-card"><span class="name">Node.js</span></div>
+          <div class="skill-card"><span class="name">REST APIs</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group" data-reveal="fade">
+        <h3>Cloud &amp; AI</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><span class="name">Cloud Platforms</span></div>
+          <div class="skill-card"><span class="name">AI-Assisted Engineering</span></div>
+        </div>
+      </div>
+
+      <div class="skill-group" data-reveal="fade">
+        <h3>Tools &amp; Practices</h3>
+        <div class="skill-cards">
+          <div class="skill-card"><span class="name">Git &amp; GitHub</span></div>
+          <div class="skill-card"><span class="name">Agile / Scrum</span></div>
+          <div class="skill-card"><span class="name">Jasmine &amp; Karma</span></div>
+          <div class="skill-card"><span class="name">Okta Auth</span></div>
+          <div class="skill-card"><span class="name">TDD</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <div class="section-heading" data-reveal="fade">
+      <span class="eyebrow">Experience</span>
+      <h2>Where I've shipped</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item is-current" data-reveal="left">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card glass">
+          <div class="timeline-card-head">
+            <h3>Sr. Application Developer<span class="current-badge">Current</span></h3>
+            <span class="timeline-period">Nov 2025 — Present</span>
+          </div>
+          <span class="timeline-company">Arise TechGlobal · Hyderabad, India · Hybrid</span>
+          <p>Designed and developed an enterprise-grade MDM Product Enrichment Platform to manage product master data for large-scale catalogs — enabling vendor collaboration, AI-based suggestions, and audit tracking. Built scalable Angular apps on an Nx monorepo, implemented NgRx for complex state, integrated REST APIs, and shipped high-performance AG Grid data tables. Added Okta-based role access control and optimized API/UI performance with RxJS.</p>
+          <div class="timeline-tags">
+            <span class="tag">Angular</span><span class="tag">Nx</span><span class="tag">NgRx</span><span class="tag">AG Grid</span><span class="tag">Okta</span><span class="tag">RxJS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-reveal="left">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card glass">
+          <div class="timeline-card-head">
+            <h3>Application Developer</h3>
+            <span class="timeline-period">May 2024 — Nov 2025</span>
+          </div>
+          <span class="timeline-company">Sira Consulting Inc</span>
+          <p>Key contributor to Assets Insights, an IT Asset Management (ITAM) tool giving real-time visibility and control over asset lifecycles. Built reporting, timelines and an action tracker; owned front-end delivery, code review, and coordination across the team.</p>
+          <div class="timeline-tags"><span class="tag">Angular</span><span class="tag">ITAM Domain</span><span class="tag">Front-end Leadership</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-reveal="left">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card glass">
+          <div class="timeline-card-head">
+            <h3>Senior Software Engineer</h3>
+            <span class="timeline-period">Nov 2020 — May 2024</span>
+          </div>
+          <span class="timeline-company">Cignex</span>
+          <p>Implemented a code review process that cut post-release bugs by 30%. Drove adoption of Angular CLI, improving project structure and build times, and led a critical RESTful service rollout that lifted system efficiency by 20%. Mentored front-end teammates on standards and delivery.</p>
+          <div class="timeline-tags"><span class="tag">Angular CLI</span><span class="tag">REST APIs</span><span class="tag">Code Review</span><span class="tag">Mentoring</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-reveal="left">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card glass">
+          <div class="timeline-card-head">
+            <h3>Software Engineer</h3>
+            <span class="timeline-period">Apr 2017 — Oct 2020</span>
+          </div>
+          <span class="timeline-company">Perfexion Information Technologies</span>
+          <p>Redesigned a critical module, lifting user engagement by 25%, and led a responsive design pass that raised mobile satisfaction by 40%. Worked across REST, TypeScript, Angular, Node.js and Git in an Agile team.</p>
+          <div class="timeline-tags"><span class="tag">Angular</span><span class="tag">Node.js</span><span class="tag">TypeScript</span><span class="tag">Git</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-reveal="left">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card glass">
+          <div class="timeline-card-head">
+            <h3>B.Com Computers</h3>
+            <span class="timeline-period">2012 — 2015</span>
+          </div>
+          <span class="timeline-company">Monad University</span>
+          <p>Comprehensive study of computer applications for business — programming fundamentals, data analysis, and business computing.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="section-heading" data-reveal="fade">
+      <span class="eyebrow">Projects</span>
+      <h2>Selected work</h2>
+      <p>A few things I've built and shipped.</p>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card glass" data-reveal="fade" data-reveal-delay="0">
+        <div class="project-thumb"><span class="initials">DVV</span></div>
+        <div class="project-body">
+          <h3>DVV Innovations</h3>
+          <p class="desc">Corporate web presence for DVV Innovations — a clean, professional site showcasing the company's products and services.</p>
+          <div class="project-tags"><span class="tag">Website</span><span class="tag">Client Project</span></div>
+          <div class="project-links">
+            <a href="https://www.dvvinnovations.com/" target="_blank" rel="noopener"><svg><use href="#i-external"/></svg> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-reveal="fade" data-reveal-delay="100">
+        <div class="project-thumb"><span class="initials">MKG</span></div>
+        <div class="project-body">
+          <h3>MKG Technology</h3>
+          <p class="desc">Business website for MKG Technology, built to present their technology offerings with a clean, modern layout.</p>
+          <div class="project-tags"><span class="tag">Website</span><span class="tag">Client Project</span></div>
+          <div class="project-links">
+            <a href="https://www.mkgtechnology.in/" target="_blank" rel="noopener"><svg><use href="#i-external"/></svg> Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass" data-reveal="fade" data-reveal-delay="200">
+        <div class="project-thumb"><span class="initials">BD</span></div>
+        <div class="project-body">
+          <h3>This Portfolio</h3>
+          <p class="desc">Personal single-page portfolio — the site you're on right now. Dark cyberpunk-inspired UI built with vanilla HTML5, CSS3 and JavaScript.</p>
+          <div class="project-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Vanilla JS</span></div>
+          <div class="project-links">
+            <a href="https://brahmacharyd.github.io/PortFolio/" target="_blank" rel="noopener"><svg><use href="#i-external"/></svg> Live Demo</a>
+            <a href="https://github.com/brahmacharyd/PortFolio" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg> GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-heading" data-reveal="fade">
+      <span class="eyebrow">Contact</span>
+      <h2>Let's build something</h2>
+      <p>Open to new opportunities and interesting engineering conversations.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info glass" data-reveal="left">
+        <h3>Get in touch</h3>
+        <p>Reach out directly, or send a message and I'll reply as soon as I can.</p>
+        <div class="contact-email-row">
+          <svg width="16" height="16"><use href="#i-mail"/></svg>
+          <span>brahmacharydiggoju.ui@gmail.com</span>
+          <button class="copy-btn" data-email="brahmacharydiggoju.ui@gmail.com" aria-label="Copy email address" type="button">
+            <svg><use href="#i-copy"/></svg>
+          </button>
+        </div>
+        <div class="social-row">
+          <a class="social-btn" href="https://www.linkedin.com/in/brahmachary-diggoju/" target="_blank" rel="noopener" aria-label="LinkedIn profile"><svg><use href="#i-linkedin"/></svg></a>
+          <a class="social-btn" href="https://github.com/brahmacharyd" target="_blank" rel="noopener" aria-label="GitHub profile"><svg><use href="#i-github"/></svg></a>
+          <a class="social-btn" href="mailto:brahmacharydiggoju.ui@gmail.com" aria-label="Send an email"><svg><use href="#i-mail"/></svg></a>
+          <a class="social-btn" href="https://drive.google.com/file/d/1wXRwykIkzSmAyr5-rIng_YU2IBPscVMI/view?usp=drive_link" target="_blank" rel="noopener" aria-label="Download resume"><svg><use href="#i-file"/></svg></a>
+        </div>
+      </div>
+
+      <div class="contact-form-card glass" data-reveal="right">
+        <form id="contactForm" action="https://formspree.io/f/xoqgllye" method="POST" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="firstName" placeholder="Jane" required autocomplete="given-name">
+            </div>
+            <div class="field">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lastName" placeholder="Doe" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="mobileNumber">Mobile number</label>
+            <input type="tel" id="mobileNumber" name="mobileNumber" pattern="(\+?\d{1,4})?(\d{10}|\d{11}|\d{12})" placeholder="+91 90000 00000" required autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about what you're building…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Brahmachary Diggoju. All rights reserved.</p>
+    <a href="#top" class="back-to-top" aria-label="Back to top"><svg><use href="#i-arrow-up"/></svg></a>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
 </html>
-
