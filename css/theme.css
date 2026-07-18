@@ -611,6 +611,15 @@ main, header, footer { position: relative; z-index: 3; }
 .timeline-period { font-family: var(--font-mono); font-size: 0.78rem; color: var(--accent-green); white-space: nowrap; }
 .timeline-company { color: var(--text-dim); font-size: 0.88rem; margin-bottom: 14px; display: block; }
 .timeline-card p { color: var(--text); font-size: 0.92rem; margin-bottom: 14px; }
+.timeline-bullets { color: var(--text); font-size: 0.92rem; margin: 0 0 14px; }
+.timeline-bullets li { position: relative; padding-left: 20px; margin-bottom: 7px; }
+.timeline-bullets li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent-green);
+}
+.timeline-bullets li:last-child { margin-bottom: 0; }
 .timeline-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .current-badge {
   font-family: var(--font-mono);
@@ -629,12 +638,32 @@ main, header, footer { position: relative; z-index: 3; }
    ========================================================================== */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 26px;
 }
 .project-grid > * { min-width: 0; }
-@media (max-width: 992px) { .project-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 680px) { .project-grid { grid-template-columns: 1fr; } }
+.project-grid + .project-grid { margin-top: 26px; }
+
+.project-group-label {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-cyan);
+  margin: 0 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.project-group-label::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+.project-group-label:not(:first-child) { margin-top: 52px; }
+
+.project-meta {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  margin: 0;
+}
 
 .project-card {
   display: flex;
